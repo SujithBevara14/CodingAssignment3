@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple recipe for making the best fudgy brownies.">
+    <meta name="author" content="Sujith Bevara">
+
+    <title>Best Fudgy Brownies</title>
+
+    <!-- external stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Best Fudgy Brownies</h1>
+
+      <!-- Recipe name -->
+      <h2>Brownies</h2>
+
+      <!-- Citation/source line -->
+      <p>Recipe by: Sujith Bevara.</p>
+
+      <!-- Image: alt text + figure/figcaption -->
+      <figure>
+        <img
+          src="images/brownies.jpg"
+          alt="Close-up of a chocolate brownie with a fudgy center"
+          height="250"
+        >
+        <figcaption>
+          Photo: Tristan Ferne, licensed under
+          <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener noreferrer">CC BY 2.0</a>.
+          Source:
+          <a href="https://commons.wikimedia.org/wiki/File:Chocolate_brownie_in_detail.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
+        </figcaption>
+      </figure>
+
+      <!-- 2-column layout wrapper -->
+      <div class="layout">
+        <!-- Column 1 -->
+        <section class="col">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>1/2 cup (113 g) unsalted butter</li>
+            <li>1 cup (200 g) granulated sugar</li>
+            <li>2 large eggs</li>
+            <li>1 tsp vanilla extract</li>
+            <li>1/3 cup (40 g) unsweetened cocoa powder</li>
+            <li>1/2 cup (64 g) all-purpose flour</li>
+            <li>1/4 tsp salt</li>
+            <li>1/4 tsp baking powder</li>
+            <li>Optional: 1/2 cup chocolate chips or chopped walnuts</li>
+          </ul>
+
+          <!-- Rate This Recipe -->
+          <h3 class="rate">Rate This Recipe</h3>
+          <form aria-labelledby="rateLegend">
+            <fieldset style="max-width: 280px;">
+              <legend id="rateLegend">What skill level is the recipe?</legend>
+
+              <label>
+                <input type="radio" name="difficulty" value="easy">
+                Easy
+              </label>
+
+              <label>
+                <input type="radio" name="difficulty" value="intermediate">
+                Intermediate
+              </label>
+
+              <label>
+                <input type="radio" name="difficulty" value="hard">
+                Hard
+              </label>
+            </fieldset>
+          </form>
+
+          <p aria-hidden="true">&nbsp;</p>
+
+          <!-- Conversion -->
+          <h3>Conversion</h3>
+          <form aria-labelledby="convLegend">
+            <fieldset style="max-width: 320px;">
+              <legend id="convLegend">Tablespoons ↔ Cups</legend>
+
+              <label for="tblspn">Tablespoons</label>
+              <input type="number" id="tblspn" name="tblspn" min="0" step="0.5" placeholder="e.g., 8">
+
+              =
+              
+              <label for="cups" class="sr-only">Cups</label>
+              <input type="number" id="cups" name="cups" min="0" step="0.25" placeholder="e.g., 0.5">
+            </fieldset>
+          </form>
+        </section>
+
+        <!-- Column 2 -->
+        <section class="col">
+          <h3>Directions</h3>
+          <ol>
+            <li>Preheat oven to 350°F (175°C). Line or grease the pan.</li>
+            <li>Melt butter. Stir in sugar, then whisk in eggs and vanilla until glossy.</li>
+            <li>Sift in cocoa, flour, salt, and baking powder; fold just until combined.</li>
+            <li>Fold in optional chocolate chips or walnuts. Spread batter into the pan.</li>
+            <li>Bake 20–25 minutes until set at the edges and slightly soft in the center.</li>
+            <li>Cool completely before slicing into squares.</li>
+          </ol>
+
+          <!-- Equipment commented out per assignment -->
+         <!--      
+          
+          <h3>Equipment</h3>
+          <ul>
+            <li>Medium saucepan or mixing bowl</li>
+            <li>Whisk or spatula</li>
+            <li>8×8 inch baking pan</li>
+            <li>Measuring cups and spoons</li>
+            <li>Parchment paper (optional)</li>
+            <li>Oven</li>
+          </ul> --> 
+        
+        </section>
+      </div>
+
+      <hr>
+
+      
+      <p class="right-note">This page created as academic activity only.</p>
+    </main>
+  </body>
+</html>
